@@ -7,19 +7,12 @@
 2. ***Deliverable 2***: Create a Bubble Chart
 3. ***Deliverable 3***: Create a Gauge Chart
 4. ***Deliverable 4***: Customize the Dashboard
-5. ***Deliverable 5***: A written report on the Belly Button Biodiversity Dashboard analysis [`README.md`](https://github.com/emmanuelmartinezs/Ploty/). 
 
 
 # Deliverable 1:  
 ## Create a Horizontal Bar Chart
 ### Deliverable Requirements:
 Using your knowledge of JavaScript, Plotly, and D3.js, create a horizontal bar chart to display the top 10 bacterial species (OTUs) when an individual’s ID is selected from the dropdown menu on the webpage. The horizontal bar chart will display the `sample_values` as the values, the `otu_ids` as the labels, and the `otu_labels` as the hover text for the bars on the chart.
-
-Your bar chart should look like the following image:
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Plotly/blob/main/Resources/Images/s2.png?raw=true)
-
-
 
 1. Code is written to create the arrays when a sample is selected from the dropdown menu.
 2. Code is written to create the trace object in the `buildCharts()` function, and it contains the following:
@@ -43,12 +36,6 @@ Using your knowledge of JavaScript, Plotly, and D3.js, create a bubble chart tha
 - The `otu_ids` as the marker colors.
 - The `otu_labels` as the hover-text values.
 
-Your bubble chart should look like the following image:
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Plotly/blob/main/Resources/Images/s3.png?raw=true)
-
-
-
 1. The code for the trace object in the `buildCharts()`; function does the following:
     - Sets the `otu_ids` as the x-axis values
     - Sets the `sample_values` as the y-axis values
@@ -65,12 +52,6 @@ Your bubble chart should look like the following image:
 ## Create a Gauge Chart
 ### Deliverable Requirements:
 Using your knowledge of JavaScript, Plotly, and D3.js, create a gauge chart that displays the weekly washing frequency's value, and display the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID is selected from the dropdown menu.
-
-Your gauge chart should look similar to the following image:
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Plotly/blob/main/Resources/Images/s4.png?raw=true)
-
-
 
 1. The code to build the gauge chart does the following:
     - Creates a title for the chart.
